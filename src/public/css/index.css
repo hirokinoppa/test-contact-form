@@ -1,0 +1,149 @@
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 24px 0 56px;
+}
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  margin: 18px 0 28px;
+  color:  rgba(106, 91, 77, 0.75);
+}
+
+.contact-form {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.field-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: #e60033;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form-label {
+  text-align: left;
+  color:  rgba(106, 91, 77, 0.75);
+  font-size: 14px;
+}
+.req {
+  color: #d26b6b;
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.form-field {
+  width: 100%; }
+
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.input, .select, .textarea {
+  width: 100%;
+  border: 1px solid #e6e1dc;
+  background: #f4f2ef;
+  padding: 12px 12px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+  color: #000;
+}
+
+
+.select {
+  color: #000;
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, #8a7b6c 50%),
+    linear-gradient(135deg, #8a7b6c 50%, transparent 50%),
+    linear-gradient(to right, transparent, transparent);
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 12px) 50%,
+    0 0;
+  background-size: 6px 6px, 6px 6px, 100% 100%;
+  background-repeat: no-repeat;
+  padding-right: 36px;
+}
+
+.select:invalid {
+  color: rgba(106, 91, 77, 0.75);
+}
+
+
+.textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+
+.radio-group {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+.radio {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  color:  rgba(106, 91, 77, 0.75);
+  font-size: 14px;
+}
+.radio input { transform: translateY(1px); }
+
+.tel-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.tel {
+  flex: 1;
+  width: auto;
+  min-width: 120px;
+  text-align: center;
+}
+.hyphen { color: #6a5b4d; }
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+.btn {
+  border: none;
+  background:  rgba(106, 91, 77, 0.75);
+  color: #fff;
+  padding: 12px 42px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover { opacity: .9; }
+
+.confirm-box {
+  width: 820px;
+  margin: 0 auto;
+  border: 1px solid #e6e1dc;
+  background: #f4f2ef;
+  padding: 18px;
+}
